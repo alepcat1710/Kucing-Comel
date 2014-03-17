@@ -23,4 +23,4 @@ $kucing->p("Hello guys !");
 
 
 // put showOutput below footer .
-$kucing->showOutput("DEVELOPMENT"); // Put "DEVELOPMENT" inside this to show maintenance break page ! :D
+$kucing->showOutput(); // Put "DEVELOPMENT" inside this to show maintenance break page ! Else . leave blank to show output :D
