@@ -57,19 +57,19 @@ class kucing_comel
 	{
 		if ($title==null && $description==null && $author==null && $keywords==null && $charset==null)
 		{
-		$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<title>' .KC_TITLE. '</title>';
-		$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="description" content="' .KC_DESCRIPTION. '">';
-		$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="author" content="' .KC_AUTHOR. '">';
-		$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="keywords" content="' .KC_KEYWORDS. '">';
-		$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="charset" content="' .KC_CHARSET. '">';
+			$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<title>' .KC_TITLE. '</title>';
+			$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="description" content="' .KC_DESCRIPTION. '">';
+			$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="author" content="' .KC_AUTHOR. '">';
+			$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="keywords" content="' .KC_KEYWORDS. '">';
+			$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="charset" content="' .KC_CHARSET. '">';
 		}
 		else
 		{
-		$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<title>' .$title. '</title>';
-		$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="description" content="' .$description. '">';
-		$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="author" content="' .$author. '">';
-		$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="keywords" content="' .$keywords. '">';
-		$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="charset" content="' .$charset. '">';
+			$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<title>' .$title. '</title>';
+			$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="description" content="' .$description. '">';
+			$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="author" content="' .$author. '">';
+			$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="keywords" content="' .$keywords. '">';
+			$_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] = $_SESSION['kucing_comel'.KUCING_COMEL_SYSTEM_HASH.'_output'] .'<meta name="charset" content="' .$charset. '">';
 		}
 	}
 
@@ -82,7 +82,6 @@ class kucing_comel
 	{
 		switch($environment)
 		{
-
 			// maintainence mode :D
 			case("DEVELOPMENT"):
 			echo '<title>' .KC_TITLE. ' | Maintenance Break</title>';
