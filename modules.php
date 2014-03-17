@@ -27,8 +27,8 @@ define("DATABASE_PASS", "rooted");
 define("DATABASE_DATA", "local");
 
 // common setup .
-define("KC_TITLE", "STORAN");
-define("KC_DESCRIPTION", "THE PLACE WHERE YOU KEEP DATA !");
+define("KC_TITLE", "KUCING-COMEL");
+define("KC_DESCRIPTION", "KUCING-COMEL PALACE :)");
 define("KC_AUTHOR", "Kucing-Comel");
 define("KC_KEYWORDS", "");
 define("KC_CHARSET", "UTF-8");
