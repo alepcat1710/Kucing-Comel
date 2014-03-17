@@ -18,6 +18,8 @@ require 'modules.php';
 $kucing = new kucing_comel;
 $kucing->fillHead(); // Leave it blank for default(get from 'modules.php'). Else, Format: "TITLE", "DESCRIPTION", "AUTHOR", "KEYWORDS", "CHARSET" .
 
+// content :D
+$kucing->p("Hello guys !");
 
 
 // put showOutput below footer .
